@@ -5,15 +5,11 @@ import java.sql.*;
 public class Database_Connection {
 	private static Connection connect;
 //	localhost Postgres database connection
-//	private static final String DB_DRIVER = "org.postgresql.Driver";
-//	private static final String DB_CONNECTION = "jdbc:postgresql://localhost:5432/academic_inventory";
-//	private static final String DB_USERNAME = "postgres";
-//	private static final String DB_PASSWORD = "system";
 	
 	private static final String DB_DRIVER = "org.postgresql.Driver";
-	private static final String DB_CONNECTION = "jdbc:postgresql://ec2-34-194-73-236.compute-1.amazonaws.com:5432/dh6jb4b8j0cp6";
-	private static final String DB_USERNAME = "pasbivpbrzrvtt";
-	private static final String DB_PASSWORD = "3ca4c3f0167b8137b7bf38383ee29075f8df3b5c7e87a6cfc1859391d7ff89bd";
+	private static final String DB_CONNECTION = "jdbc:postgresql://ec2-34-194-158-176.compute-1.amazonaws.com:5432/df2vgfq54gceej";
+	private static final String DB_USERNAME = "lmhrwfibwopckp";
+	private static final String DB_PASSWORD = "system";
 	
 	public static Connection getConnection() {
 		try {
